@@ -10,7 +10,7 @@ const cur = location.pathname.split("/").pop() || "index.html";
 document.getElementById("nav").innerHTML =
   `<header><div class="wrap bar"><a href="index.html"><img src="assets/logo.png" alt="Debo Rise"></a><button id="mb" aria-expanded="false" aria-controls="mn">Menu</button><nav id="mn">${pages.map((p) => `<a href="${p[0]}" class="${p[0] == cur ? "on" : ""}">${p[1]}</a>`).join("")}<a class="btn" data-apply href="${FORM_URL}">Apply now</a></nav></div></header>`;
 document.getElementById("foot").innerHTML =
-  `<footer><div class="wrap fg"><div><img src="assets/logo.png" alt="Debo Rise"><p>Rise together. A student program at ${SCHOOL}.</p></div><div>${pages.map((p) => `<a href="${p[0]}">${p[1]}</a>`).join("")}</div><div><p>Grades always come first.<br>A teacher supervises every group.</p></div></div></footer>`;
+  `<footer><div class="wrap"><div class="fg"><div class="footer-brand"><img src="assets/logo.png" alt="Debo Rise"><p>Rise together.</p><span>A student program at ${SCHOOL}.</span></div><div class="footer-links"><h2>Explore</h2><nav aria-label="Footer">${pages.map((p) => `<a href="${p[0]}">${p[1]}</a>`).join("")}</nav></div><div class="footer-promise"><span class="footer-label">Our promise</span><p>Grades always come first.</p><span>A teacher supervises every group.</span></div></div><div class="footer-bottom"><span>Learn together. Build together. Rise together.</span><span>Made for students, rooted in community.</span></div></div></footer>`;
 document.querySelectorAll("[data-apply]").forEach((a) => (a.href = FORM_URL));
 const mb = document.getElementById("mb"),
   mn = document.getElementById("mn");
