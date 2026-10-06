@@ -1,4 +1,4 @@
-const FORM_URL = "https://forms.gle/9DN8bRhPkY456Wx97"; // replace with your Google Form link
+const FORM_URL = "https://forms.gle/9DN8bRhPkY456Wx97";
 const SCHOOL = "Fit Awrari Abayneh Secondary School";
 const pages = [
   ["index.html", "Home"],
