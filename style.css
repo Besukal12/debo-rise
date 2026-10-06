@@ -22,6 +22,10 @@ body {
   line-height: 1.65;
   font-size: 17px;
 }
+html[lang="am"] body {
+  font-family: "Noto Sans Ethiopic", "Nyala", system-ui, sans-serif;
+  line-height: 1.8;
+}
 img {
   max-width: 100%;
   display: block;
@@ -70,6 +74,25 @@ header nav a {
   transition:
     background-color 160ms ease,
     color 160ms ease;
+}
+header nav .lang-toggle {
+  background: transparent;
+  border: 1px solid rgba(27, 94, 63, 0.28);
+  border-radius: 99px;
+  color: var(--g);
+  cursor: pointer;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 9px 15px;
+  transition:
+    background-color 160ms ease,
+    color 160ms ease,
+    border-color 160ms ease;
+}
+header nav .lang-toggle:hover {
+  background: var(--c2);
+  border-color: var(--g);
 }
 header nav a:hover,
 header nav a.on {
@@ -565,7 +588,8 @@ footer a:hover {
     display: flex;
   }
   header nav a,
-  header nav a.btn {
+  header nav a.btn,
+  header nav .lang-toggle {
     margin-left: 0;
     padding: 11px 14px;
   }

@@ -6,7 +6,7 @@
     <link rel="icon" href="assets/icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Noto+Sans+Ethiopic:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -16,8 +16,8 @@
     <div id="nav"></div>
     <main>
       <div class="wrap pagehead">
-        <h1>Six weeks. One real project.</h1>
-        <p class="lead" style="margin-top: 16px">
+        <h1 data-i18n="week.heading">Six weeks. One real project.</h1>
+        <p class="lead" data-i18n="week.subtitle" style="margin-top: 16px">
           Pick a week to see what each field does. Every week ends with
           something you can show.
         </p>
@@ -29,6 +29,7 @@
             id="tabs"
             role="group"
             aria-label="Choose a week"
+            data-i18n-aria="week.choose"
           ></div>
           <div id="wk" aria-live="polite"></div>
         </div>
@@ -36,20 +37,18 @@
       <section class="tint">
         <div class="wrap two">
           <div>
-            <h2>Your week</h2>
+            <h2 data-i18n="week.yourWeek">Your week</h2>
             <ul class="tick">
-              <li><b>Meeting A:</b> in person at school, 60 minutes</li>
-              <li><b>Meeting B:</b> online, 45 minutes</li>
-              <li><b>Every day:</b> 1 to 2 hours of learning and practice</li>
-              <li>
-                <b>Daily proof:</b> post a screenshot or note in your group
-              </li>
-              <li><b>Day 7:</b> rest</li>
+              <li data-i18n="week.schedule1">Meeting A: in person at school, 60 minutes</li>
+              <li data-i18n="week.schedule2">Meeting B: online, 45 minutes</li>
+              <li data-i18n="week.schedule3">Every day: 1 to 2 hours of learning and practice</li>
+              <li data-i18n="week.schedule4">Daily proof: post a screenshot or note in your group</li>
+              <li data-i18n="week.schedule5">Day 7: rest</li>
             </ul>
           </div>
           <div>
-            <h2>Stuck? Call a debo.</h2>
-            <p class="lead">
+            <h2 data-i18n="week.stuck">Stuck? Call a debo.</h2>
+            <p class="lead" data-i18n="week.stuckLead">
               If you are stuck for 20 minutes, post #CallADebo with a screenshot
               and your question. Classmates and mentors gather to help you
               finish. Helping others is practice for the Teach step.
@@ -60,13 +59,13 @@
       <section>
         <div class="wrap two">
           <div>
-            <h2>How you earn the certificate</h2>
-            <p class="lead">
+            <h2 data-i18n="week.certificate">How you earn the certificate</h2>
+            <p class="lead" data-i18n="week.certificateLead">
               The certificate is signed by the school and Debo Rise. You earn it
               by finishing, not only by attending.
             </p>
           </div>
-          <ul class="tick">
+          <ul class="tick" data-i18n-list="week.certificateList">
             <li>Attend at least 9 of 12 meetings</li>
             <li>Post proof of work at least 20 times</li>
             <li>Finish your final project and pass the mentor review</li>
@@ -77,16 +76,16 @@
       <section class="dark">
         <div class="wrap two">
           <div>
-            <h2>Showcase Day</h2>
-            <p class="lead">
+            <h2 data-i18n="week.showcase">Showcase Day</h2>
+            <p class="lead" data-i18n="week.showcaseLead">
               At the end of Week 6, you show your work to the principal,
               teachers, parents, and mentors. Some students present on stage.
               Everyone has a station to explain their project.
             </p>
           </div>
           <div>
-            <h3>What you leave with</h3>
-            <ul class="tick">
+            <h3 data-i18n="week.leave">What you leave with</h3>
+            <ul class="tick" data-i18n-list="week.leaveList">
               <li>One practical skill</li>
               <li>One finished real project</li>
               <li>A portfolio piece and mentor feedback</li>

@@ -174,6 +174,21 @@ const translations = {
     "home.programLink": "See the program",
     "home.ctaTitle": "Apply now",
     "home.ctaAlt": "How joining works",
+    "home.photoAlt": "A green sprout growing toward the sun",
+    "week.choose": "Choose a week",
+    "week.schedule1": "Meeting A: in person at school, 60 minutes",
+    "week.schedule2": "Meeting B: online, 45 minutes",
+    "week.schedule3": "Every day: 1 to 2 hours of learning and practice",
+    "week.schedule4": "Daily proof: post a screenshot or note in your group",
+    "week.schedule5": "Day 7: rest",
+    "week.certificateList": "Attend at least 9 of 12 meetings;Post proof of work at least 20 times;Finish your final project and pass the mentor review;Present at Showcase Day",
+    "week.leaveList": "One practical skill;One finished real project;A portfolio piece and mentor feedback;A plan for your next step",
+    "page.join.requirementsList": "1 to 2 hours every day for 6 weeks;Two meetings a week, one in person and one online;A phone or computer, and Telegram;Permission from a parent or guardian;The will to finish",
+    "future.appLead": "Telegram is our free place for chat. The app focuses on what Telegram cannot do: verified proof of skills.",
+    "future.whyLead": "An app with no users is empty. We first learn what students need, then build only that.",
+    "future.mvpList": "Student profile and project pages;Progress through Learn, Think, Build, Solve, Teach;Mentor feedback and verified badge;One shareable portfolio link;Company view for internships",
+    "future.fullList": "Feed to share work, plus chat and groups;Points, trophies, and challenges;Learning tracks for every field;Live mentoring and recordings;School dashboards and mobile apps",
+    "future.growList": "Schools join and support the program;Companies sponsor challenges and offer internships;Optional paid workshops later",
   },
   am: {
     "nav.home": "መነሻ",
@@ -322,6 +337,21 @@ const translations = {
     "home.programLink": "ፕሮግራሙን ይመልከቱ",
     "home.ctaTitle": "አስመዝግቡ",
     "home.ctaAlt": "እንዴት መቀላቀል እንደሚቻል",
+    "home.photoAlt": "ወደ ፀሐይ የሚያድግ አረንጓዴ ቡቃያ",
+    "week.choose": "ሳምንት ይምረጡ",
+    "week.schedule1": "ስብሰባ A፦ በት/ቤት በአካል፣ 60 ደቂቃ",
+    "week.schedule2": "ስብሰባ B፦ በመስመር ላይ፣ 45 ደቂቃ",
+    "week.schedule3": "በየቀኑ፦ ከ1 እስከ 2 ሰዓት መማርና ልምምድ",
+    "week.schedule4": "የዕለቱ ማስረጃ፦ በቡድንዎ ውስጥ ስክሪንሾት ወይም ማስታወሻ ያጋሩ",
+    "week.schedule5": "ቀን 7፦ ዕረፍት",
+    "week.certificateList": "ከ12ቱ ስብሰባዎች ቢያንስ 9ኙን ይከታተሉ;የሥራዎን ማስረጃ ቢያንስ 20 ጊዜ ያጋሩ;የመጨረሻ ፕሮጀክትዎን ያጠናቅቁ እና የአማካሪ ግምገማ ያልፉ;በማሳያ ቀን ሥራዎን ያቅርቡ",
+    "week.leaveList": "አንድ ተግባራዊ ክህሎት;አንድ የተጠናቀቀ ፕሮጀክት;ለማሳየት የሚችሉት ሥራ እና የአማካሪ አስተያየት;ቀጣይ እርምጃዎን የሚያሳይ እቅድ",
+    "page.join.requirementsList": "በየቀኑ ከ1 እስከ 2 ሰዓት ለ6 ሳምንታት;በሳምንት ሁለት ስብሰባዎች፣ አንዱ በአካል አንዱ በመስመር ላይ;ስልክ ወይም ኮምፒውተር እና ቴሌግራም;የወላጅ ወይም የአሳዳጊ ፈቃድ;እስከመጨረሻው የመቀጠል ፍላጎት",
+    "future.appLead": "ቴሌግራም ለውይይት ነፃ ቦታችን ነው። አፕሊኬሽኑ ቴሌግራም የማይሰጠውን ያደርጋል፤ ክህሎትዎን በሥራ ማስረጃ ማረጋገጥ።",
+    "future.whyLead": "ተጠቃሚ የሌለው አፕሊኬሽን ባዶ ነው። መጀመሪያ ተማሪዎች ምን እንደሚፈልጉ እንማራለን፣ ከዚያም ያንን ብቻ እንገነባለን።",
+    "future.mvpList": "የተማሪ መገለጫ እና የፕሮጀክት ገጾች;ተማር፣ አስብ፣ ገንባ፣ ፍታ፣ አስተምር በሚሉት ደረጃዎች የሚያሳይ እድገት;የአማካሪ አስተያየት እና የተረጋገጠ ምልክት;ሊጋራ የሚችል አንድ የሥራ ማሳያ አገናኝ;ኩባንያዎች ለሥራ ልምምድ የሚመለከቱበት",
+    "future.fullList": "ሥራን የሚያጋራ ገጽ፣ ውይይት እና ቡድኖች;ነጥቦች፣ ዋንጫዎች እና ተግዳሮቶች;ለእያንዳንዱ መስክ የመማሪያ መንገዶች;በቀጥታ የአማካሪ ድጋፍ እና ቅጂዎች;ለት/ቤቶች ዳሽቦርድ እና የስልክ መተግበሪያዎች",
+    "future.growList": "ት/ቤቶች ፕሮግራሙን ይቀላቀላሉ እና ይደግፋሉ;ኩባንያዎች ተግዳሮቶችን ይደግፋሉ እና የሥራ ልምምድ ዕድል ይሰጣሉ;ወደፊት አማራጭ የክፍያ ሥልጠናዎች",
   },
 };
 const getTranslation = (key, lang) => (translations[lang] || translations.en)[key] || translations.en[key] || "";
@@ -335,6 +365,26 @@ function updatePageText(lang) {
       else el.textContent = value;
     }
   });
+  document.querySelectorAll("[data-i18n-list]").forEach((list) => {
+    const value = getTranslation(list.dataset.i18nList, lang);
+    if (value) {
+      const items = value.split(";").map((item) => item.trim());
+      [...list.children].forEach((item, index) => {
+        if (items[index]) item.textContent = items[index];
+      });
+    }
+  });
+  document.querySelectorAll("[data-i18n-aria]").forEach((el) => {
+    const value = getTranslation(el.dataset.i18nAria, lang);
+    if (value) el.setAttribute("aria-label", value);
+  });
+  const langToggle = document.querySelector("[data-lang-toggle]");
+  if (langToggle) {
+    langToggle.setAttribute(
+      "aria-label",
+      lang === "am" ? "Switch language to English" : "ቋንቋን ወደ አማርኛ ቀይር",
+    );
+  }
   const title = pageTitles[cur]?.[lang] || pageTitles[cur]?.en || document.title;
   if (title) document.title = title;
 }
@@ -361,7 +411,7 @@ function renderHeaderAndFooter(lang) {
         <button id="mb" aria-expanded="false" aria-controls="mn">${getTranslation("nav.menu", lang)}</button>
         <nav id="mn">
           ${navList.map((p) => `<a href="${p[0]}" class="${p[0] == cur ? "on" : ""}">${p[1]}</a>`).join("")}
-          <button class="lang-toggle" type="button" data-lang-toggle aria-label="Toggle language">${footerText.langBtn}</button>
+          <button class="lang-toggle" type="button" data-lang-toggle>${footerText.langBtn}</button>
           <a class="btn" data-apply href="${FORM_URL}">${footerText.apply}</a>
         </nav>
       </div>
@@ -408,6 +458,7 @@ function renderHeaderAndFooter(lang) {
       localStorage.setItem("lang", next);
       renderHeaderAndFooter(next);
       updatePageText(next);
+      renderProgramWeeks(next);
     });
   }
 }
@@ -417,6 +468,7 @@ function applyLanguage() {
   const lang = saved || (preferred.startsWith("am") ? "am" : "en");
   renderHeaderAndFooter(lang);
   updatePageText(lang);
+  renderProgramWeeks(lang);
 }
 const W = [
   [
@@ -462,20 +514,79 @@ const W = [
     "Presentation and final video",
   ],
 ];
-const wk = document.getElementById("wk");
-if (wk) {
+const W_am = [
+  [
+    "ተማር",
+    "መሠረታዊ ነገሮችን ይማሩ፤ ከዚያም ትንሽ የመጀመሪያ ሥራ ያጠናቅቁ።",
+    "“ስለ እኔ” ድረ-ገጽ",
+    "የተቀዳ ፖስተር እና ያሻሻሉት ስሪት",
+    "ከ30 እስከ 45 ሰከንድ የልምምድ ቪዲዮ እትም",
+  ],
+  [
+    "አስብ",
+    "እውነተኛ ደንበኛ ይምረጡ እና ፕሮጀክትዎን ያቅዱ።",
+    "የንግድ አጭር መግለጫ እና የወረቀት የገጽ እቅድ",
+    "የደንበኛ አጭር መግለጫ እና የምስል ማጣቀሻ ስብስብ",
+    "የሀሳብ እቅድ፣ የታሪክ ቅደም ተከተል እና የቀረጻ ዝርዝር",
+  ],
+  [
+    "ገንባ",
+    "እውነተኛውን ፕሮጀክት መሥራት ይጀምሩ።",
+    "የመነሻ ገጽ ረቂቅ",
+    "3 የአርማ ሀሳቦች እና 1 የመጨረሻ አርማ",
+    "ሁሉም ቀረጻዎች እና ያልተጠናቀቀ የመጀመሪያ እትም",
+  ],
+  [
+    "ገንባ",
+    "ሙሉ በሙሉ የሚሠራ ረቂቅ ያጠናቅቁ።",
+    "ለተለያዩ ስክሪኖች የሚስማማ ሙሉ ድረ-ገጽ ረቂቅ",
+    "ፖስተር እና የማህበራዊ ሚዲያ ልጥፍ",
+    "የሙሉ ቪዲዮው የመጨረሻ እትም",
+  ],
+  [
+    "ፈትሽ እና አሻሽል",
+    "ከእውነተኛ ተጠቃሚ ጋር ይፈትሹ እና ያሻሽሉ። በዲጂታል ግብይት ላይ የሚሠራ እንግዳ ተናጋሪ በመስመር ላይ ይቀላቀላል።",
+    "የመጨረሻ ድረ-ገጽ እና የደንበኛ አስተያየት",
+    "የመጨረሻ የብራንድ ስብስብ እና የደንበኛ አስተያየት",
+    "የመጨረሻ ቪዲዮ እና የደንበኛ አስተያየት",
+  ],
+  [
+    "አስተምር",
+    "የተማሩትን ለሌሎች ያካፍሉ፤ በማሳያ ቀንም ሥራዎን ያቅርቡ።",
+    "አጭር ንግግር እና በቀጥታ የሚያሳይ ሙከራ",
+    "የመጀመሪያውንና የተሻሻለውን ሥራ የሚያሳይ ንግግር",
+    "ንግግር እና የመጨረሻ ቪዲዮ",
+  ],
+];
+let activeWeek = 0;
+function renderProgramWeeks(lang) {
+  const wk = document.getElementById("wk");
   const tb = document.getElementById("tabs");
-  const show = (i) => {
-    [...tb.children].forEach((b, j) => b.setAttribute("aria-selected", j == i));
-    const w = W[i];
-    wk.innerHTML = `<h3>Week ${i + 1}: ${w[0]}</h3><p>${w[1]}</p><table><tr><th>Web Development</th><td>${w[2]}</td></tr><tr><th>Graphic Design</th><td>${w[3]}</td></tr><tr><th>Video Editing</th><td>${w[4]}</td></tr></table>`;
+  if (!wk || !tb) return;
+
+  const isAmharic = lang === "am";
+  const weekData = isAmharic ? W_am : W;
+  const show = (index) => {
+    activeWeek = index;
+    [...tb.children].forEach((button, buttonIndex) => {
+      button.setAttribute("aria-selected", String(buttonIndex === index));
+    });
+    const week = weekData[index];
+    const weekLabel = isAmharic ? "ሳምንት" : "Week";
+    const fields = isAmharic
+      ? ["የድረ-ገጽ ልማት", "ግራፊክ ዲዛይን", "የቪዲዮ እየስራ"]
+      : ["Web Development", "Graphic Design", "Video Editing"];
+    wk.innerHTML = `<h3>${weekLabel} ${index + 1}: ${week[0]}</h3><p>${week[1]}</p><table><tr><th>${fields[0]}</th><td>${week[2]}</td></tr><tr><th>${fields[1]}</th><td>${week[3]}</td></tr><tr><th>${fields[2]}</th><td>${week[4]}</td></tr></table>`;
   };
-  W.forEach((w, i) => {
-    const b = document.createElement("button");
-    b.textContent = "Week " + (i + 1);
-    b.onclick = () => show(i);
-    tb.appendChild(b);
+
+  tb.innerHTML = "";
+  weekData.forEach((week, index) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = `${isAmharic ? "ሳምንት" : "Week"} ${index + 1}`;
+    button.onclick = () => show(index);
+    tb.appendChild(button);
   });
-  show(0);
+  show(Math.min(activeWeek, weekData.length - 1));
 }
 applyLanguage();
